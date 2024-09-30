@@ -67,7 +67,7 @@ export default function QRCodeGenerator() {
                   value={title}
                   onChange={(e) => setTitle(e.target.value)}
                   className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-pink-300 focus:ring focus:ring-pink-200 focus:ring-opacity-50 transition duration-300"
-                  placeholder="멋진 타이틀"
+                  placeholder="Awesome Title"
                 />
               </div>
               <div>
@@ -77,7 +77,7 @@ export default function QRCodeGenerator() {
                   value={description}
                   onChange={(e) => setDescription(e.target.value)}
                   className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-pink-300 focus:ring focus:ring-pink-200 focus:ring-opacity-50 transition duration-300"
-                  placeholder="여기에 설명을 입력하세요"
+                  placeholder="Awesome Description"
                   rows={3}
                 />
               </div>
