@@ -144,7 +144,7 @@ export default function QRCodeGenerator() {
             </form>
           </div>
           <div className="w-full lg:w-1/2 p-8 bg-gradient-to-br from-pink-100 to-purple-100">
-            <h2 className="text-2xl font-bold mb-4 text-gray-800">미리보기</h2>
+            <h2 className="text-2xl font-bold mb-4 text-gray-800">Preview</h2>
             <div
               className={`rounded-2xl shadow-lg p-6 ${qrPosition === 'top' ? 'flex flex-col' : 'flex flex-col-reverse'}`}
               style={{ backgroundColor: hexToRgba(backgroundColor, transparency) }}
